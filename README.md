@@ -87,7 +87,7 @@ Built at **Bitcamp 2026** with Harshil Vejendla, Vaghesan Sundaram, and Aditya A
 - Explores whether media can be retrieved based on predicted neural response in addition to conventional semantic similarity.
 - I contributed from the original idea stage and worked on the frontend during the 36-hour hackathon.
 
-[Repository](ADD_FAIRS_REPOSITORY_LINK) · [Demo](ADD_FAIRS_DEMO_LINK)
+[Repository](https://github.com/a-typical-sheep/fairs-bitcamp) 
 
 ---
 
@@ -106,7 +106,7 @@ The repository includes labs, practice exercises, and projects covering:
 - Data ethics and privacy
 - A semester capstone project
 
-[Repository](ADD_CSI109_REPOSITORY_LINK)
+[Repository](https://github.com/rkohnmn/CSI109Podder)
 
 ## Tech I Work With
 
