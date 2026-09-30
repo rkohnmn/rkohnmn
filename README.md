@@ -1,8 +1,8 @@
 # Hi, I'm Robert Kohn
 
-I'm a senior at **Muhlenberg College** triple-majoring in **Mathematics, Statistics, and Physics**. I'm building toward software engineering through projects that combine programming, quantitative modeling, data, and practical problem-solving.
+I'm a senior at **Muhlenberg College** triple-majoring in **Mathematics, Statistics, and Physics**. I build software and quantitative projects that combine programming, statistical modeling, data, and practical problem-solving.
 
-I primarily work with **JavaScript / TypeScript, Python, and C++**, and I enjoy building tools where software has to organize, analyze, or make sense of complex information.
+A large part of my academic work has been in **R and statistical computing**, spanning classical inference, regression and generalized linear models, predictive modeling, time-series forecasting, simulation, and data visualization. I also work with **Python, JavaScript / TypeScript, and C++**.
 
 ```text
                               ++     +=+
@@ -46,56 +46,96 @@ I primarily work with **JavaScript / TypeScript, Python, and C++**, and I enjoy 
 ## About Me
 
 - **Student-athlete:** Muhlenberg College Football and Centennial Conference Academic Honor Roll.
-- **Builder:** Currently preparing **Racc Analytics**, a local-first esports analytics platform, for public release.
-- **Hackathon experience:** Co-built **FAIRS** at Bitcamp 2026, a multimodal media recommendation system combining semantic embeddings with predicted cortical-response representations.
-- **Quantitative background:** Studying mathematics, statistics, and physics while applying those ideas to modeling, data analysis, and software.
+- **Quantitative computing:** Multiple R-based courses in statistics, predictive modeling, simulation, and data visualization.
+- **Builder:** Developing **Racc Analytics**, a local-first esports analytics and coaching platform.
+- **Hackathon experience:** Co-built **FAIRS** at Bitcamp 2026, exploring multimodal recommendation using semantic and predicted cortical-response representations.
 - **Leadership:** Former Head Chef, Disney Leadership Training Program participant, and Intramural Volleyball Club president.
 
-## Featured Projects
+## Featured Work
 
 ### Racc Analytics
 
 **Competitive intelligence and coaching software for Rainbow Six Siege.**
 
-Racc Analytics is an offline-first desktop platform that brings strategy planning, match analytics, VOD review, player development, opponent scouting, and broadcast tooling into one system.
+Racc Analytics is a local-first desktop platform that brings strategy planning, match analytics, VOD review, player development, opponent scouting, and broadcast tooling into one system.
 
-- Built around an **NW.js desktop shell** with a Node/Express backend and multiple local services.
+- Built around an **NW.js desktop shell** with Node/Express services.
 - Includes **Next.js + FastAPI** tooling for local computer-vision workflows.
 - Uses **OpenCV / OCR** for video telemetry and match-review features.
-- Includes map-veto analysis with **Markov transition modeling** and **Monte Carlo simulation**.
-- Parses match data from spreadsheets and replay data for team statistics and tactical analysis.
-- Includes strategy editors, coaching/goal tracking, player dossiers, callout training, and OBS overlays.
-- Uses **Playwright** and unit/smoke tests across the project.
-- Designed around local storage and user-controlled data rather than requiring cloud-hosted video processing.
+- Includes map-veto analysis, statistical tooling, player development workflows, and OBS overlays.
+- Uses **Playwright** plus unit and smoke testing across the project.
 
-**Technologies:** JavaScript / TypeScript, Node.js, Express, NW.js, Next.js, Python, FastAPI, OpenCV, PyTorch, SQLite, Playwright, Fabric.js, SheetJS
+**Technologies:** JavaScript / TypeScript, Node.js, Express, NW.js, Next.js, Python, FastAPI, OpenCV, PyTorch, SQLite, Playwright
 
-[Repository](https://github.com/rkohnmn/raccanalytics)
-
-> Currently preparing the repository for public release.
+> Private repository currently being prepared for public release.
 
 ---
 
-### FAIRS
+### MTH 319 — Predictive Statistics & Statistical Computing
 
-**Multimodal recommendation system exploring media search through both semantic meaning and predicted brain-response representations.**
+A collection of R-based predictive modeling and quantitative computing projects covering classification, forecasting, ensemble methods, and mathematical simulation.
 
-Built at **Bitcamp 2026** with Harshil Vejendla, Vaghesan Sundaram, and Aditya Agarwal.
+Selected work includes:
+
+- **K-Nearest Neighbors:** multi-class classification of professional Counter-Strike player performance with feature scaling and cross-validation.
+- **Decision Trees & Random Forests:** modeling competitive round outcomes using recursive partitioning, bagging, and random forests.
+- **Time Series Forecasting:** STL decomposition, autocorrelation analysis, benchmark models, and ETS forecasting on multi-year Google Trends data.
+- **SIR Epidemic Modeling:** numerical integration and parameter sensitivity analysis for a nonlinear ODE system.
+
+[View MTH319](https://github.com/rkohnmn/MTH319)
+
+---
+
+### MTH 229 — Data Visualization & Computational Statistics
+
+R-focused work in statistical visualization, simulation, dashboards, time-series analysis, and reproducible reporting.
+
+Selected work includes:
+
+- **Volleyball Analytics Dashboard:** spatial court tracking, density estimation, statistical modeling, and an interactive `flexdashboard`.
+- **Monte Carlo Simulation:** large-scale stochastic simulation, distribution modeling, correlation testing, and numerical integration.
+- **Time-Series Visualization:** environmental and retail longitudinal analysis using reproducible R workflows.
+- **Visual Analytics:** data reshaping and layered `ggplot2` graphics for quantitative communication.
+
+The volleyball project also includes a Python tracking pipeline using computer vision / object detection alongside the R analysis workflow.
+
+[View MTH229](https://github.com/rkohnmn/MTH229)
+
+---
+
+### FAIRS — Bitcamp 2026
+
+**Multimodal recommendation system exploring media retrieval through semantic meaning and predicted brain-response representations.**
+
+Built with Harshil Vejendla, Vaghesan Sundaram, and Aditya Agarwal during Bitcamp 2026.
 
 - Uses semantic embeddings alongside predicted fMRI-derived representations.
-- Built around **TRIBE v2**, Meta FAIR's cortical-response model used in the Algonauts 2025 challenge.
-- Explores whether media can be retrieved based on predicted neural response in addition to conventional semantic similarity.
-- I contributed from the original idea stage and worked on the frontend during the 36-hour hackathon.
+- Built around **TRIBE v2**, Meta FAIR's cortical-response model.
+- Explores media retrieval using predicted cortical response as an additional search axis.
+- I contributed from the original idea stage and worked on the frontend during the hackathon.
 
-[Repository](https://github.com/a-typical-sheep/fairs-bitcamp) 
+[View FAIRS](https://github.com/a-typical-sheep/fairs-bitcamp)
 
----
+## R & Statistical Computing
+
+R has become one of the main tools I use in my mathematics and statistics coursework. These repositories show a progression from statistical foundations into modeling, prediction, simulation, and visualization.
+
+| Course | Focus | Selected Topics |
+| --- | --- | --- |
+| [MTH 119 — Statistical Analysis](https://github.com/rkohnmn/MTH119) | Statistical inference & foundations | Hypothesis testing, chi-square tests, ANOVA, Welch t-tests, OLS regression, residual analysis |
+| [MTH 219 — Statistical Models](https://github.com/rkohnmn/MTH219) | Applied statistical modeling | Multiple linear regression, ANOVA, logistic regression, model diagnostics, interactions |
+| [MTH 319 — Predictive Statistics](https://github.com/rkohnmn/MTH319) | Predictive modeling & forecasting | KNN, decision trees, random forests, time series, ETS forecasting, SIR modeling |
+| [MTH 229 — Data Visualization](https://github.com/rkohnmn/MTH229) | Visualization & computational statistics | `ggplot2`, dashboards, Monte Carlo simulation, spatial analysis, time-series visualization |
+
+Across these courses I've worked with reproducible **R Markdown** workflows, statistical graphics, model diagnostics, data wrangling, simulation, forecasting, and interpretation of quantitative results.
+
+## Python Coursework
 
 ### CSI 109 — Introduction to Data Science
 
-A public course repository documenting my work in **Python and introductory data science** at Muhlenberg College.
+A public course repository documenting my current work in Python and introductory data science.
 
-The repository includes labs, practice exercises, and projects covering:
+Topics include:
 
 - Python syntax, control flow, loops, collections, and functions
 - Input validation and debugging
@@ -104,26 +144,30 @@ The repository includes labs, practice exercises, and projects covering:
 - `matplotlib` visualization
 - REST APIs and web scraping
 - Data ethics and privacy
-- A semester capstone project
 
-[Repository](https://github.com/rkohnmn/CSI109Podder)
+[View CSI109](https://github.com/rkohnmn/CSI109Podder)
 
 ## Tech I Work With
 
-### Primary Languages
-`JavaScript / TypeScript` · `Python` · `C++`
+### Languages
+
+`R` · `Python` · `JavaScript / TypeScript` · `C++`
+
+### R / Statistics
+
+`RStudio` · `R Markdown` · `tidyverse` · `ggplot2` · `mosaic` · `lattice` · `tsibble` · `fable` · `feasts` · `caret` · `randomForest` · `deSolve` · `flexdashboard`
 
 ### Web & Application Development
+
 `Node.js` · `Express` · `Next.js` · `HTML` · `CSS` · `NW.js`
 
-### Data & Modeling
-`pandas` · `matplotlib` · Statistical Modeling · Mathematical Modeling · Monte Carlo Methods
+### Data, Computer Vision & Backend
 
-### Computer Vision & Backend
-`FastAPI` · `OpenCV` · `PyTorch` · `SQLite`
+`pandas` · `matplotlib` · `FastAPI` · `OpenCV` · `PyTorch` · `SQLite`
 
 ### Tools
-`Git` · `GitHub` · `Playwright` · `VS Code` · `Microsoft Excel`
+
+`Git` · `GitHub` · `Playwright` · `VS Code` · `RStudio` · `Microsoft Excel`
 
 ## Current Coursework
 
@@ -138,28 +182,28 @@ My senior-year coursework includes:
 - Mathematics CUE
 - Statistics CUE
 
-I'm especially interested in turning ideas from mathematics, statistics, and physics into software that can be tested against real data.
+I'm especially interested in turning ideas from mathematics, statistics, and physics into software and quantitative models that can be tested against real data.
 
 ## Development Workflow
 
-I use modern AI development tools alongside traditional programming, debugging, documentation, testing, and code review workflows.
+I use modern AI development tools alongside programming, debugging, documentation, testing, and code-review workflows.
 
-They help me prototype quickly, explore unfamiliar technologies, trace bugs, and iterate on ideas, but I still take responsibility for understanding the system, validating behavior, and being able to explain what I build.
+They help me prototype quickly, explore unfamiliar technologies, trace bugs, and iterate on ideas, while I remain responsible for understanding the system, validating behavior, and being able to explain what I build.
 
 ## Experience Beyond Software
 
-Before focusing more heavily on software development, I built leadership experience in high-pressure team environments.
+Before focusing more heavily on software and quantitative computing, I built leadership experience in high-pressure team environments.
 
 As a **Head Chef at Weston Field Club**, I managed kitchen operations and applied quantitative reasoning to staffing, inventory, forecasting, and menu economics. That experience shaped how I approach technical problems: understand the constraints, build something practical, measure what matters, and improve the system.
 
-I'm also a college football player, which has reinforced the same habits I value in engineering: preparation, communication, iteration, and accountability.
+I'm also a college football player, which has reinforced the same habits I value in technical work: preparation, communication, iteration, and accountability.
 
 ## Currently
 
 - **Building:** Racc Analytics
 - **Studying:** Data structures, mathematical statistics, mathematical modeling, and senior CUE work
-- **Exploring:** Full-stack development, computer vision, data-driven systems, and computational modeling
-- **Interested in:** Software engineering, technical internships, research, and collaborative projects
+- **Exploring:** Statistical computing, predictive modeling, full-stack development, computer vision, and computational modeling
+- **Interested in:** Software engineering, data/quantitative roles, technical internships, research, and collaborative projects
 
 ## Connect
 
