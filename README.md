@@ -147,11 +147,29 @@ Topics include:
 
 [View CSI109](https://github.com/rkohnmn/CSI109Podder)
 
+## Web Development & Interactive Design
+
+### COM 256 — Interactive Web Design: Pain & Memory
+
+A non-linear, experimental hypermedia web installation exploring memory loss, cognitive fragmentation, and affective accumulation through spatial navigation, custom CSS layouts, and HTML5 canvas physics.
+
+Originally developed for COM 256 (*Introduction to Interactive Web Design*) at Muhlenberg College and curated as a public portfolio repository.
+
+Selected work includes:
+
+- **Particle Physics Gateway:** dynamic canvas-based drift simulation with mouse-directed repulsion vectors and boundary wrapping (`index.html`).
+- **Glassmorphism Portal:** modern, responsive navigation hub implementing backdrop-filter blurs, CSS rise animations, and fluid typography (`portal.html`).
+- **Spatial Hypermedia:** responsive coordinate-aware viewport stage tracking real-time cursor offsets across spatial image fragments (`alpha/imagine/`).
+- **Typographic Kernel System:** multi-archetype editorial layout architecture built with pure CSS grid/flexbox, asymmetric positioning, and dark-mode aesthetic (`beta/text/`).
+- **Zero-Dependency Architecture:** engineered entirely with vanilla semantic HTML5, modern CSS3, and native JavaScript without external frameworks or CDNs.
+
+[View Pain and Memory](https://github.com/rkohnmn/pain-memory)
+
 ## Tech I Work With
 
 ### Languages
 
-`R` · `Python` · `JavaScript / TypeScript` · `C++`
+`R` · `Python` · `JavaScript / TypeScript` · `HTML5 / CSS3` · `C++`
 
 ### R / Statistics
 
@@ -159,7 +177,7 @@ Topics include:
 
 ### Web & Application Development
 
-`Node.js` · `Express` · `Next.js` · `HTML` · `CSS` · `NW.js`
+`HTML5 Canvas API` · `Modern CSS3 (Grid & Flexbox)` · `Vanilla JavaScript / DOM API` · `Node.js` · `Express` · `Next.js` · `NW.js`
 
 ### Data, Computer Vision & Backend
 
