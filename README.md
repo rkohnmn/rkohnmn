@@ -1,8 +1,15 @@
-# Hi, I'm Robert Kohn
+# Hi, I'm Robert (Robbie) Kohn
 
-I'm a senior at **Muhlenberg College** triple-majoring in **Mathematics, Statistics, and Physics**. I build software and quantitative projects that combine programming, statistical modeling, data, and practical problem-solving.
+I'm an undergraduate student-athlete at **Muhlenberg College** triple-majoring in **Physics, Mathematics, and Statistics**. I build software and quantitative projects combining statistical modeling, rigorous mathematics, data systems, and practical software engineering.
 
-A large part of my academic work has been in **R and statistical computing**, spanning classical inference, regression and generalized linear models, predictive modeling, time-series forecasting, simulation, and data visualization. I also work with **Python, JavaScript / TypeScript, and C++**.
+🌐 **Personal Portfolio:** [rkohnmn.github.io](https://rkohnmn.github.io)  
+📄 **Teaching & Academic Portfolio:** [Robbie Kohn Certification Portfolio (PDF)](https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf)  
+📬 **Connect:** [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · [GitHub](https://github.com/rkohnmn) · [Email](mailto:roberttkohn@gmail.com)
+
+A large part of my academic work spans **R and statistical computing**, **pure mathematics and LaTeX proof exposition**, and **full-stack software development in Python and JavaScript / TypeScript**.
+
+<details>
+<summary><b>Toggle ASCII Art Profile</b></summary>
 
 ```text
                               ++     +=+
@@ -42,14 +49,17 @@ A large part of my academic work has been in **R and statistical computing**, sp
  ****************=..*******
  ****************+::=******
 ```
+</details>
 
 ## About Me
 
-- **Student-athlete:** Muhlenberg College Football and Centennial Conference Academic Honor Roll.
-- **Quantitative computing:** Multiple R-based courses in statistics, predictive modeling, simulation, and data visualization.
-- **Builder:** Developing **Racc Analytics**, a local-first esports analytics and coaching platform.
-- **Hackathon experience:** Co-built **FAIRS** at Bitcamp 2026, exploring multimodal recommendation using semantic and predicted cortical-response representations.
-- **Leadership:** Former Head Chef, Disney Leadership Training Program participant, and Intramural Volleyball Club president.
+- **Student-athlete & Leadership:** Muhlenberg College Football (Offensive Lineman #72, Centennial Conference Academic Honor Roll) and Intramural Volleyball Club leadership.
+- **Educator:** Active District Substitute Teacher with Weston Public Schools (2024–2027), preparing for secondary STEM education (grades 7–12).
+- **Quantitative Computing:** Multiple R- and Python-based courses in predictive modeling, stochastic simulation, and visualization.
+- **Pure Mathematics:** Rigorous proof-writing, real analysis, and mathematical exposition in LaTeX.
+- **Builder:** Developing **Racc Analytics**, a local-first esports telemetry and coaching platform.
+- **Hackathon Experience:** Co-built **FAIRS** at Bitcamp 2026, exploring multimodal recommendation using semantic and predicted cortical-response representations.
+- **High-Pressure Management:** Former Head Chef at Weston Field Club; Disney Leadership Training Program participant.
 
 ## Featured Work
 
@@ -67,7 +77,7 @@ Racc Analytics is a local-first desktop platform that brings strategy planning, 
 
 **Technologies:** JavaScript / TypeScript, Node.js, Express, NW.js, Next.js, Python, FastAPI, OpenCV, PyTorch, SQLite, Playwright
 
-> Private repository currently being prepared for public release.
+> *Private repository currently in active development; being prepared for public release.*
 
 ---
 
@@ -107,55 +117,20 @@ The volleyball project also includes a Python tracking pipeline using computer v
 
 **Multimodal recommendation system exploring media retrieval through semantic meaning and predicted brain-response representations.**
 
-Built with Harshil Vejendla, Vaghesan Sundaram, and Aditya Agarwal during Bitcamp 2026.
+Built with Harshil Vejendla, Vaghesan Sundaram, and Aditya Agarwal during Bitcamp 2026 at the University of Maryland.
 
 - Uses semantic embeddings alongside predicted fMRI-derived representations.
 - Built around **TRIBE v2**, Meta FAIR's cortical-response model.
 - Explores media retrieval using predicted cortical response as an additional search axis.
-- I contributed from the original idea stage and worked on the frontend during the hackathon.
+- Contributed from the original idea stage and engineered the frontend during the hackathon.
 
-[View FAIRS](https://github.com/a-typical-sheep/fairs-bitcamp)
+[View FAIRS Repository](https://github.com/rkohnmn/fairs-bitcamp) · [Upstream Repo](https://github.com/a-typical-sheep/fairs-bitcamp)
 
-## R & Statistical Computing
+---
 
-R has become one of the main tools I use in my mathematics and statistics coursework. These repositories show a progression from statistical foundations into modeling, prediction, simulation, and visualization.
-
-| Course | Focus | Selected Topics |
-| --- | --- | --- |
-| [MTH 119 — Statistical Analysis](https://github.com/rkohnmn/MTH119) | Statistical inference & foundations | Hypothesis testing, chi-square tests, ANOVA, Welch t-tests, OLS regression, residual analysis |
-| [MTH 219 — Statistical Models](https://github.com/rkohnmn/MTH219) | Applied statistical modeling | Multiple linear regression, ANOVA, logistic regression, model diagnostics, interactions |
-| [MTH 319 — Predictive Statistics](https://github.com/rkohnmn/MTH319) | Predictive modeling & forecasting | KNN, decision trees, random forests, time series, ETS forecasting, SIR modeling |
-| [MTH 229 — Data Visualization](https://github.com/rkohnmn/MTH229) | Visualization & computational statistics | `ggplot2`, dashboards, Monte Carlo simulation, spatial analysis, time-series visualization |
-
-Across these courses I've worked with reproducible **R Markdown** workflows, statistical graphics, model diagnostics, data wrangling, simulation, forecasting, and interpretation of quantitative results.
-
-## Python Coursework
-
-### CSI 109 — Introduction to Data Science
-
-A public course repository documenting my current work in Python and introductory data science.
-
-Topics include:
-
-- Python syntax, control flow, loops, collections, and functions
-- Input validation and debugging
-- File I/O and CSV processing
-- `pandas` data manipulation
-- `matplotlib` visualization
-- REST APIs and web scraping
-- Data ethics and privacy
-
-[View CSI109](https://github.com/rkohnmn/CSI109Podder)
-
-## Web Development & Interactive Design
-
-### COM 256 — Interactive Web Design: Pain & Memory
+### Pain and Memory — Interactive Web Installation (COM 256)
 
 A non-linear, experimental hypermedia web installation exploring memory loss, cognitive fragmentation, and affective accumulation through spatial navigation, custom CSS layouts, and HTML5 canvas physics.
-
-Originally developed for COM 256 (*Introduction to Interactive Web Design*) at Muhlenberg College and curated as a public portfolio repository.
-
-Selected work includes:
 
 - **Particle Physics Gateway:** dynamic canvas-based drift simulation with mouse-directed repulsion vectors and boundary wrapping (`index.html`).
 - **Glassmorphism Portal:** modern, responsive navigation hub implementing backdrop-filter blurs, CSS rise animations, and fluid typography (`portal.html`).
@@ -165,31 +140,72 @@ Selected work includes:
 
 [View Pain and Memory](https://github.com/rkohnmn/pain-memory)
 
+---
+
+## Pure Mathematics & Proofs (LaTeX)
+
+Theoretical mathematics coursework emphasizing formal logic, rigorous proof techniques, analysis, and LaTeX typesetting.
+
+| Course Repository | Focus | Selected Work & Proof Portfolios |
+| :--- | :--- | :--- |
+| [MTH 337 — Real Analysis](https://github.com/rkohnmn/MTH337) | Foundations of single-variable analysis & topology | Supremum/infimum duality ($\sup B = \inf A$), existence of $\sqrt{2}$, Monotone Convergence Theorem, Alternating Series Test, uniform convergence, Darboux sums & Riemann integration |
+| [MTH 240 — Transition to Abstract Mathematics](https://github.com/rkohnmn/MTH240) | Mathematical logic & exposition | 15-proof capstone portfolio (direct/indirect proof, induction, set theory, equivalence relations, modular arithmetic) and the Alden handshake problem narrative essay |
+
+---
+
+## R & Statistical Computing
+
+R has become one of the primary tools I use in my mathematics and statistics coursework, showing a progression from inferential foundations into modeling, prediction, simulation, and visualization.
+
+| Course Repository | Focus | Selected Topics |
+| :--- | :--- | :--- |
+| [MTH 119 — Statistical Analysis](https://github.com/rkohnmn/MTH119) | Statistical inference & foundations | Hypothesis testing, chi-square tests, ANOVA, Welch t-tests, OLS regression, residual analysis |
+| [MTH 219 — Statistical Models](https://github.com/rkohnmn/MTH219) | Applied statistical modeling | Multiple linear regression, ANOVA, logistic regression, model diagnostics, interactions |
+| [MTH 319 — Predictive Statistics](https://github.com/rkohnmn/MTH319) | Predictive modeling & forecasting | KNN, decision trees, random forests, time series, ETS forecasting, SIR modeling |
+| [MTH 229 — Data Visualization](https://github.com/rkohnmn/MTH229) | Visualization & computational statistics | `ggplot2`, dashboards, Monte Carlo simulation, spatial analysis, time-series visualization |
+
+Across these courses I've worked with reproducible **R Markdown** workflows, statistical graphics, model diagnostics, data wrangling, simulation, forecasting, and interpretation of quantitative results.
+
+---
+
+## Python Coursework
+
+### [CSI 109 — Introduction to Data Science](https://github.com/rkohnmn/CSI109Podder)
+
+A public course repository documenting coursework in Python and data science fundamentals:
+
+- Python syntax, control flow, loops, collections, and functions
+- Input validation and debugging
+- File I/O and CSV processing
+- `pandas` data manipulation
+- `matplotlib` visualization
+- REST APIs and web scraping
+- Data ethics and privacy
+
+---
+
 ## Tech I Work With
 
 ### Languages
-
-`R` · `Python` · `JavaScript / TypeScript` · `HTML5 / CSS3` · `C++`
+`R` · `Python` · `JavaScript / TypeScript` · `LaTeX` · `HTML5 / CSS3` · `C++`
 
 ### R / Statistics
-
 `RStudio` · `R Markdown` · `tidyverse` · `ggplot2` · `mosaic` · `lattice` · `tsibble` · `fable` · `feasts` · `caret` · `randomForest` · `deSolve` · `flexdashboard`
 
-### Web & Application Development
-
-`HTML5 Canvas API` · `Modern CSS3 (Grid & Flexbox)` · `Vanilla JavaScript / DOM API` · `Node.js` · `Express` · `Next.js` · `NW.js`
-
-### Data, Computer Vision & Backend
-
+### Data, Computer Vision & Machine Learning
 `pandas` · `matplotlib` · `FastAPI` · `OpenCV` · `PyTorch` · `SQLite`
 
-### Tools
+### Web & Application Development
+`HTML5 Canvas API` · `Modern CSS3 (Grid & Flexbox)` · `Vanilla JavaScript / DOM API` · `Node.js` · `Express` · `Next.js` · `NW.js` · `React` · `Three.js`
 
-`Git` · `GitHub` · `Playwright` · `VS Code` · `RStudio` · `Microsoft Excel`
+### Tools & Environments
+`Git` · `GitHub` · `Playwright` · `VS Code` · `RStudio` · `Overleaf / TeX Live` · `Microsoft Excel`
+
+---
 
 ## Current Coursework
 
-My senior-year coursework includes:
+My upper-level and senior coursework includes:
 
 - Intro to Data Structures
 - Mathematical Statistics
@@ -202,11 +218,15 @@ My senior-year coursework includes:
 
 I'm especially interested in turning ideas from mathematics, statistics, and physics into software and quantitative models that can be tested against real data.
 
+---
+
 ## Development Workflow
 
 I use modern AI development tools alongside programming, debugging, documentation, testing, and code-review workflows.
 
 They help me prototype quickly, explore unfamiliar technologies, trace bugs, and iterate on ideas, while I remain responsible for understanding the system, validating behavior, and being able to explain what I build.
+
+---
 
 ## Experience Beyond Software
 
@@ -216,13 +236,17 @@ As a **Head Chef at Weston Field Club**, I managed kitchen operations and applie
 
 I'm also a college football player, which has reinforced the same habits I value in technical work: preparation, communication, iteration, and accountability.
 
+---
+
 ## Currently
 
 - **Building:** Racc Analytics
 - **Studying:** Data structures, mathematical statistics, mathematical modeling, and senior CUE work
 - **Exploring:** Statistical computing, predictive modeling, full-stack development, computer vision, and computational modeling
-- **Interested in:** Software engineering, data/quantitative roles, technical internships, research, and collaborative projects
+- **Interested in:** Software engineering, data/quantitative roles, technical internships, research, and secondary STEM education
+
+---
 
 ## Connect
 
-[GitHub](https://github.com/rkohnmn) · [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · [Email](mailto:roberttkohn@gmail.com)
+🌐 [Website (rkohnmn.github.io)](https://rkohnmn.github.io) · 📄 [Teaching Portfolio (PDF)](https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf) · [GitHub](https://github.com/rkohnmn) · [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · [Email](mailto:roberttkohn@gmail.com)
