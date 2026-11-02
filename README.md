@@ -1,252 +1,223 @@
 # Hi, I'm Robert (Robbie) Kohn
 
-I'm an undergraduate student-athlete at **Muhlenberg College** triple-majoring in **Physics, Mathematics, and Statistics**. I build software and quantitative projects combining statistical modeling, rigorous mathematics, data systems, and practical software engineering.
+I'm an undergraduate student-athlete at **Muhlenberg College** triple-majoring in **Physics, Mathematics, and Statistics**. I build software and quantitative projects combining statistical modeling, rigorous mathematics, native systems engineering, and interactive web applications.
 
 🌐 **Personal Portfolio:** [rkohnmn.github.io](https://rkohnmn.github.io)  
-📄 **Teaching & Academic Portfolio:** [Robbie Kohn Certification Portfolio (PDF)](https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf)  
-📬 **Connect:** [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · [GitHub](https://github.com/rkohnmn) · [Email](mailto:roberttkohn@gmail.com)
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · [GitHub](https://github.com/rkohnmn) · [Email](mailto:roberttkohn@gmail.com)
 
-A large part of my academic work spans **R and statistical computing**, **pure mathematics and LaTeX proof exposition**, and **full-stack software development in Python and JavaScript / TypeScript**.
+A large part of my work spans **native C++20 and Rust systems programming**, **interactive browser-based statistical and scientific laboratories**, **R and Python quantitative computing**, and **pure mathematics and LaTeX proof exposition**.
 
 <details>
 <summary><b>Toggle ASCII Art Profile</b></summary>
 
 ```text
-                              ++     +=+
-                               =     +++*
-               ******+======          =+++**
-             *********--++-=-==    *+ .:--===
-           *******+++==++++=**+-    ++-------
-           *##**+=+++**##******=-     #*-::::
-           **+--:-*####*#*#+=+#*++      :..::+
-           +==:..:*#############        +...::
-            ******############*#         .:::-+
-            :-:...:=##*+=-=+++*#  ##     **++++
-            ++****+=:...:-.....*   # #   *+++++=
-       ===###*+=:-=..-+=--*:....   #    *++++++++
-    :....:.-=-..--:..-.*::+++:-===#     ++===+++=
-  :.....:--.......:....+*-==++====+++++++====+++=
- --====.==**-..::--:-==++=::=+**============++++=
---####=+####*:::::-==##+++*###*+========+++++=+**
-=++*#+=#=-+##:::::::#########**++==+++++******##
- -.+#:::..=##-...:::###******++++******######
-  .+#...==+##+....::*#*++++++**++###
-  .*#:.+#####-.....:-#*==++*##+--
-  -=#..*#+=--......::-*#*****+=-.
-  =*#..+#-....:.....::-=++====+--+
-  =**..-#*::*##+.::-====------=++#%
- *+*#+..########--::::::..:---==
- ++**#..=###***++--:..::::::---
- ****-.:.::::::::.::--:::::::-
-  *##-............:::::::::::=
-     :................::..:--
-     .............:::...::--+
-    ::::.:..:::........:-:-:
-   -.::--:.......:::::::::::
-  =--:::..::::------------:.
-  =--:::::---------==----::.
-  ***************=--=+==++=-
- ****************=..*******
- ****************+::=******
+                      ++    +=+
+                       =    +++*
+          ******+=======    =+++**
+         **********--++-=-=   * .:-===
+        *******+==+=++++=**+-   ++-------
+       *###*+=+==*++*######*=   #*-::::
+      **+-:-*####*#*+=+*#*++   .:::+
+     +==:.:*#############   +...:
+    ******##############   .::-+
+   :-:...=##*+=--+++*# ##   **++++
+  ++****+=:..:-:.....* ## *++++=
+ ===###*+=:-..+-=-:*:.... # *+++++++
+ :...:.-=..-...:*:::---===# +=======
+ :....:-......+*--=-====+=======
+ --======**_..::-:=++=:+*=============++++=
+ --####=+####*:::::-==###*+=+==========++++=**
+ =+*+#+=+-+*######::::==#####**+====+======******##
+ -.+#:::==#-...:###******++++******#######
 ```
 </details>
 
-## About Me
+## Featured Systems & Desktop Engineering Projects
 
-- **Student-athlete & Leadership:** Muhlenberg College Football (Offensive Lineman #72, Centennial Conference Academic Honor Roll) and Intramural Volleyball Club leadership.
-- **Educator:** Active District Substitute Teacher with Weston Public Schools (2024–2027), preparing for secondary STEM education (grades 7–12).
-- **Quantitative Computing:** Multiple R- and Python-based courses in predictive modeling, stochastic simulation, and visualization.
-- **Pure Mathematics:** Rigorous proof-writing, real analysis, and mathematical exposition in LaTeX.
-- **Builder:** Developing **Racc Analytics**, a local-first esports telemetry and coaching platform.
-- **Hackathon Experience:** Co-built **FAIRS** at Bitcamp 2026, exploring multimodal recommendation using semantic and predicted cortical-response representations.
-- **High-Pressure Management:** Former Head Chef at Weston Field Club; Disney Leadership Training Program participant.
+### [Kryptos VX](https://github.com/rkohnmn/kryptos-vx)
 
-## Featured Work
+Zero-bloat C++20 full-stack systems engine for high-speed filesystem indexing, binary profiling, and developer tooling.
 
-### Racc Analytics
+- **Kernel-Accelerated I/O & Multi-ISA SIMD:** Direct Linux SYS_getdents64/statx and Windows FindFirstFileEx(LARGE_FETCH) directory traversal paired with AVX-512, AVX2, and ARM64 NEON scanners.
 
-**Competitive intelligence and coaching software for Rainbow Six Siege.**
+- **24-Bit Inverted Trigram Watcher & Native MCP Server:** Sub-millisecond regex/literal code search and a zero-dependency JSON-RPC 2.0 Model Context Protocol server over stdio and TCP.
 
-Racc Analytics is a local-first desktop platform that brings strategy planning, match analytics, VOD review, player development, opponent scouting, and broadcast tooling into one system.
+- **FastCDC LAN Delta Sync & Binary Profiler:** Content-defined chunking for shift-resilient delta patching (KVXD), native 24-byte ADB wire bridge, and cross-format PE32+ / ELF64 / Mach-O64 section bloat analysis.
 
-- Built around an **NW.js desktop shell** with Node/Express services.
-- Includes **Next.js + FastAPI** tooling for local computer-vision workflows.
-- Uses **OpenCV / OCR** for video telemetry and match-review features.
-- Includes map-veto analysis, statistical tooling, player development workflows, and OBS overlays.
-- Uses **Playwright** plus unit and smoke testing across the project.
+### [Tessera](https://github.com/rkohnmn/tessera)
 
-**Technologies:** JavaScript / TypeScript, Node.js, Express, NW.js, Next.js, Python, FastAPI, OpenCV, PyTorch, SQLite, Playwright
+Instant, offline C++20 explorer and query engine for multi-gigabyte CSV, TSV, and JSONL files without loading them into memory.
 
-> *Private repository currently in active development; being prepared for public release.*
+- **Zero-Copy Memory-Mapped Indexing:** Explores and filters multi-gigabyte tabular and JSON Lines datasets with constant memory overhead.
 
----
+- **Interactive Terminal UI & Column Profiler:** Keyboard-driven TUI, streaming column histograms, summary statistics, and a fast declarative query language.
 
-### MTH 319 — Predictive Statistics & Statistical Computing
+### [Velox Studio](https://github.com/rkohnmn/velox-studio)
 
-A collection of R-based predictive modeling and quantitative computing projects covering classification, forecasting, ensemble methods, and mathematical simulation.
+Sub-millisecond native C++20 data profiler, schema analyzer, trace profiler, and perceptual visualization workbench.
 
-Selected work includes:
+- **Five Integrated C++20 Engines:** Zero-copy mmap CSV/columnar scanner (velox inspect), Cleveland–McGill and Tufte Lie-Factor perceptual chart auditor (velox chart), 1NF–BCNF SQL schema & index optimizer (velox schema), N+1 query profiler (velox profile), and W3C PROV-DM citation verifier (velox verify).
 
-- **K-Nearest Neighbors:** multi-class classification of professional Counter-Strike player performance with feature scaling and cross-validation.
-- **Decision Trees & Random Forests:** modeling competitive round outcomes using recursive partitioning, bagging, and random forests.
-- **Time Series Forecasting:** STL decomposition, autocorrelation analysis, benchmark models, and ETS forecasting on multi-year Google Trends data.
-- **SIR Epidemic Modeling:** numerical integration and parameter sensitivity analysis for a nonlinear ODE system.
+- **Zero External Dependencies:** Compiles to a single ~200 KB binary with a native C++20 GUI workbench and CLI.
 
-[View MTH319](https://github.com/rkohnmn/MTH319)
+### [Scour](https://github.com/rkohnmn/scour)
 
----
+Offline C++20 PDF structure inspector, metadata scrubber, and content-stream redactor.
 
-### MTH 229 — Data Visualization & Computational Statistics
+- **True Content-Stream Redaction:** Inspects raw PDF object graphs, strips hidden XMP/DocumentInfo metadata and embedded tracking payloads, and removes redacted text from underlying PDF content streams rather than drawing black rectangles over text.
 
-R-focused work in statistical visualization, simulation, dashboards, time-series analysis, and reproducible reporting.
+- **CLI, JSON & Interactive TUI:** Supports automated batch verification pipelines with deterministic exit codes and structured JSON reports.
 
-Selected work includes:
+### [Kinetix L2](https://github.com/rkohnmn/kinetix-l2)
 
-- **Volleyball Analytics Dashboard:** spatial court tracking, density estimation, statistical modeling, and an interactive `flexdashboard`.
-- **Monte Carlo Simulation:** large-scale stochastic simulation, distribution modeling, correlation testing, and numerical integration.
-- **Time-Series Visualization:** environmental and retail longitudinal analysis using reproducible R workflows.
-- **Visual Analytics:** data reshaping and layered `ggplot2` graphics for quantitative communication.
+Zero-web native C++20 4-modality Second Language Acquisition (SLA) studio with FSRS-4.5 scheduling and WaniKani DAG gating.
 
-The volleyball project also includes a Python tracking pipeline using computer vision / object detection alongside the R analysis workflow.
+- **Pedagogical & Cognitive Engine:** Implements FSRS-4.5 power-law spaced repetition, WaniKani prerequisite dependency DAG gating ($S_{\text{rec}} \ge 3.0\text{d}$), interlinear i + 1 immersion mining, Pimsleur prosodic back-chaining, and < 2,500 ms speed-gated active recall.
 
-[View MTH229](https://github.com/rkohnmn/MTH229)
+- **100% Native Rendering Stack:** Built with C++20, PangoCairo + HarfBuzz typography, librsvg-2.0, Cycfi Photon declarative layout combinators, SQLite3 WAL persistence, and a toggleable 6-region Dear ImGui telemetry dockspace.
 
----
+### FeatherWall & Rust Key Sequencer
 
-### FAIRS — Bitcamp 2026
+Ultra-lightweight native Rust desktop utilities for Windows and cross-platform automation.
 
-**Multimodal recommendation system exploring media retrieval through semantic meaning and predicted brain-response representations.**
+- **FeatherWall:** Hardware-accelerated animated video wallpaper engine and floating desktop widget overlay for Windows 10 & 11 in pure native Rust (fwctl CLI + zero-bloat render loop).
 
-Built with Harshil Vejendla, Vaghesan Sundaram, and Aditya Agarwal during Bitcamp 2026 at the University of Maryland.
+- **Rust Key Sequencer (Keytape):** Low-latency desktop keyboard and mouse macro sequencer GUI built with Rust, eframe/egui, and enigo.
 
-- Uses semantic embeddings alongside predicted fMRI-derived representations.
-- Built around **TRIBE v2**, Meta FAIR's cortical-response model.
-- Explores media retrieval using predicted cortical response as an additional search axis.
-- Contributed from the original idea stage and engineered the frontend during the hackathon.
+### qwen-vegas-agent & Racc Connect
 
-[View FAIRS Repository](https://github.com/rkohnmn/fairs-bitcamp) · [Upstream Repo](https://github.com/a-typical-sheep/fairs-bitcamp)
+Local-first AI media tooling and Tailscale mesh desktop infrastructure.
 
----
+- **qwen-vegas-agent:** Local, privacy-first AI video-editing pipeline for VEGAS Pro 17 combining WhisperX word-level transcripts, self-hosted Qwen planning over Tailscale, and a deterministic rational-frame EDL compiler.
 
-### Pain and Memory — Interactive Web Installation (COM 256)
+- **Racc Connect:** Native Rust workspace (iced + custom wire protocol) for low-latency cross-device display viewing and control over Tailscale.
 
-A non-linear, experimental hypermedia web installation exploring memory loss, cognitive fragmentation, and affective accumulation through spatial navigation, custom CSS layouts, and HTML5 canvas physics.
+## Interactive Statistical, Scientific & Local-First Web Applications
 
-- **Particle Physics Gateway:** dynamic canvas-based drift simulation with mouse-directed repulsion vectors and boundary wrapping (`index.html`).
-- **Glassmorphism Portal:** modern, responsive navigation hub implementing backdrop-filter blurs, CSS rise animations, and fluid typography (`portal.html`).
-- **Spatial Hypermedia:** responsive coordinate-aware viewport stage tracking real-time cursor offsets across spatial image fragments (`alpha/imagine/`).
-- **Typographic Kernel System:** multi-archetype editorial layout architecture built with pure CSS grid/flexbox, asymmetric positioning, and dark-mode aesthetic (`beta/text/`).
-- **Zero-Dependency Architecture:** engineered entirely with vanilla semantic HTML5, modern CSS3, and native JavaScript without external frameworks or CDNs.
+| Project | Description | Links |
+| --- | --- | --- |
+| DataSense Studio & Compass | Unified browser-native statistical instrument ecosystem | [Repo](https://github.com/rkohnmn/datasense-studio) · [Live App](https://rkohnmn.github.io/datasense-studio/) |
+| ForecastLab | Interactive laboratory for time-series decomposition, forecasting models, temporal CV & uncertainty | [Repo](https://github.com/rkohnmn/forecastlab) · [Live App](https://rkohnmn.github.io/forecastlab/) |
+| ResampleLab | Interactive laboratory for probability distributions, sampling variability, bootstrap & permutation tests | [Repo](https://github.com/rkohnmn/resamplelab) · [Live App](https://rkohnmn.github.io/resamplelab/) |
+| QuartetLab | Interactive bivariate dataset synthesizer, exact-moment solver & regression diagnostic studio | [Repo](https://github.com/rkohnmn/quartetlab) · [Live App](https://rkohnmn.github.io/quartetlab/) |
+| VisualGrammar | Interactive laboratory for variable taxonomy, chart discovery, and graphical literacy | [Repo](https://github.com/rkohnmn/visualgrammar) · [Live App](https://rkohnmn.github.io/visualgrammar/) |
+| DataMend Lab | Privacy-conscious data preparation, cleaning, restructuring, and validation laboratory | [Repo](https://github.com/rkohnmn/datamend-lab) · [Live App](https://rkohnmn.github.io/datamend-lab/) |
+| GearboxLab V2/V3 | Interactive 3D airsoft gearbox mechanical explainer and electromechanical drivetrain sandbox | [Repo](https://github.com/rkohnmn/gearboxlab) · [Live App](https://rkohnmn.github.io/gearboxlab/) |
+| Both Homes | Local-first co-parenting custody and holiday calendar builder with ICS export | [Repo](https://github.com/rkohnmn/both-homes) · [Live App](https://rkohnmn.github.io/both-homes/) |
+| Dayfair | Privacy-first, day-by-day household bill and rent splitting calculator | [Repo](https://github.com/rkohnmn/dayfair) · [Live App](https://rkohnmn.github.io/dayfair/) |
+| Culinary Intelligence | Deterministic 491-ingredient pairing graph, recipe discovery, Cooking for Engineers diagrams & menu builder | [Repo](https://github.com/rkohnmn/culinary-intelligence-app) |
+| Vaccine Financial & Policy Trajectories | Muhlenberg College DataLab Visualization Contest submission (2015–2025 financial & policy context) | [Repo](https://github.com/rkohnmn/muhlenberg-data-viz-contest) |
 
-[View Pain and Memory](https://github.com/rkohnmn/pain-memory)
+## Racc Analytics (Private — In Active Development)
 
----
+Competitive intelligence, VOD review, and coaching platform for Rainbow Six Siege.
+
+- Combines map-ban analysis, match telemetry, VOD review with OpenCV/OCR, and a multi-floor blueprint strategy builder with .r6strat export.
+
+- Engineered with an NW.js desktop shell, Node/Express services, Next.js + FastAPI computer-vision pipelines, SQLite, and Playwright end-to-end testing.
+
+## FAIRS – Bitcamp 2026
+
+Multimodal recommendation system exploring media retrieval through semantic meaning and predicted brain-response alignment.
+
+- Built with Harshil Vejendla, Vaghesan Sundaram, and Aditya Agarwal during Bitcamp 2026 at the University of Maryland.
+
+- Uses semantic embeddings alongside predicted fMRI-derived representations built around TRIBE v2, Meta FAIR's cortical-response model.
+
+- Explores media retrieval using predicted cortical response as an additional search axis; contributed from the original idea stage and engineered the frontend during the hackathon.
+
+[View FAIRS Repository](https://github.com/rkohnmn/fairs-bitcamp) · [Live Demo](https://rkohnmn.github.io/fairs-bitcamp/)
+
+## Pain and Memory – Interactive Web Installation (COM 256)
+
+A non-linear, experimental hypermedia web installation exploring memory loss, cognitive fragmentation, and affective storytelling.
+
+- **Particle Physics Gateway & Glassmorphism Portal:** Dynamic canvas-based drift simulation, responsive navigation hub, spatial sub-canvases, and a zero-dependency HTML5/CSS3/ES6 architecture.
+
+[View Pain and Memory](https://rkohnmn.github.io/pain-memory/)
 
 ## Pure Mathematics & Proofs (LaTeX)
 
 Theoretical mathematics coursework emphasizing formal logic, rigorous proof techniques, analysis, and LaTeX typesetting.
 
 | Course Repository | Focus | Selected Work & Proof Portfolios |
-| :--- | :--- | :--- |
-| [MTH 337 — Real Analysis](https://github.com/rkohnmn/MTH337) | Foundations of single-variable analysis & topology | Supremum/infimum duality ($\sup B = \inf A$), existence of $\sqrt{2}$, Monotone Convergence Theorem, Alternating Series Test, uniform convergence, Darboux sums & Riemann integration |
-| [MTH 240 — Transition to Abstract Mathematics](https://github.com/rkohnmn/MTH240) | Mathematical logic & exposition | 15-proof capstone portfolio (direct/indirect proof, induction, set theory, equivalence relations, modular arithmetic) and the Alden handshake problem narrative essay |
-
----
+| --- | --- | --- |
+| [MTH 337 – Real Analysis](https://github.com/rkohnmn/MTH337) | Foundations of single-variable analysis & topology | Complete course proof portfolio in LaTeX |
+| [MTH 240 – Transition to Abstract Mathematics](https://github.com/rkohnmn/MTH240) | Mathematical logic & exposition | Weekly proof sets, Alden Handshake Problem & final writing portfolio |
 
 ## R & Statistical Computing
 
-R has become one of the primary tools I use in my mathematics and statistics coursework, showing a progression from inferential foundations into modeling, prediction, simulation, and visualization.
+R is one of the primary tools I use in my mathematics and statistics coursework, progressing from foundational inference to predictive modeling and interactive visual analytics.
 
 | Course Repository | Focus | Selected Topics |
-| :--- | :--- | :--- |
-| [MTH 119 — Statistical Analysis](https://github.com/rkohnmn/MTH119) | Statistical inference & foundations | Hypothesis testing, chi-square tests, ANOVA, Welch t-tests, OLS regression, residual analysis |
-| [MTH 219 — Statistical Models](https://github.com/rkohnmn/MTH219) | Applied statistical modeling | Multiple linear regression, ANOVA, logistic regression, model diagnostics, interactions |
-| [MTH 319 — Predictive Statistics](https://github.com/rkohnmn/MTH319) | Predictive modeling & forecasting | KNN, decision trees, random forests, time series, ETS forecasting, SIR modeling |
-| [MTH 229 — Data Visualization](https://github.com/rkohnmn/MTH229) | Visualization & computational statistics | `ggplot2`, dashboards, Monte Carlo simulation, spatial analysis, time-series visualization |
-
-Across these courses I've worked with reproducible **R Markdown** workflows, statistical graphics, model diagnostics, data wrangling, simulation, forecasting, and interpretation of quantitative results.
-
----
+| --- | --- | --- |
+| [MTH 119 – Statistical Analysis](https://github.com/rkohnmn/MTH119) | Statistical inference & foundations | Hypothesis testing, ANOVA, confidence intervals, multiple regression |
+| [MTH 219 – Statistical Models](https://github.com/rkohnmn/MTH219) | Applied statistical modeling | Multiple linear regression, PUBG weapon TTK ANOVA, R6 logistic regression |
+| [MTH 319 – Predictive Statistics](https://github.com/rkohnmn/MTH319) | Predictive modeling & forecasting | KNN, STL/ETS time-series forecasting, decision trees, random forests, SIR ODEs |
+| [MTH 229 – Data Visualization](https://github.com/rkohnmn/MTH229) | Visualization & computational statistics | NCAA DIII Volleyball dashboard, Monte Carlo simulations, ggplot2 & computer vision |
 
 ## Python Coursework
 
-### [CSI 109 — Introduction to Data Science](https://github.com/rkohnmn/CSI109Podder)
+### [CSI 109 – Introduction to Data Science](https://github.com/rkohnmn/CSI109Podder)
 
 A public course repository documenting coursework in Python and data science fundamentals:
 
-- Python syntax, control flow, loops, collections, and functions
-- Input validation and debugging
-- File I/O and CSV processing
-- `pandas` data manipulation
-- `matplotlib` visualization
-- REST APIs and web scraping
-- Data ethics and privacy
+- Python syntax, control flow, loops, collections, functions, and defensive input validation
 
----
+- File I/O, CSV processing, matrix symmetry verification, and Monte Carlo simulations
 
-## Tech I Work With
+- pandas data manipulation, matplotlib visualization, and automated headless Chromium verification
 
-### Languages
-`R` · `Python` · `JavaScript / TypeScript` · `LaTeX` · `HTML5 / CSS3` · `C++`
+## Core Technical Skills
 
-### R / Statistics
-`RStudio` · `R Markdown` · `tidyverse` · `ggplot2` · `mosaic` · `lattice` · `tsibble` · `fable` · `feasts` · `caret` · `randomForest` · `deSolve` · `flexdashboard`
+- **Languages:** C++20, Rust, Python, R, JavaScript / TypeScript, HTML5, CSS3, SQL, LaTeX, PowerShell
 
-### Data, Computer Vision & Machine Learning
-`pandas` · `matplotlib` · `FastAPI` · `OpenCV` · `PyTorch` · `SQLite`
+- **Systems & Graphics:** POSIX / Win32 Kernel I/O, SIMD (AVX2 / AVX-512 / NEON), CMake, Dear ImGui, PangoCairo, SDL2, eframe/egui, WebGL / Three.js, HTML5 Canvas
 
-### Web & Application Development
-`HTML5 Canvas API` · `Modern CSS3 (Grid & Flexbox)` · `Vanilla JavaScript / DOM API` · `Node.js` · `Express` · `Next.js` · `NW.js` · `React` · `Three.js`
+- **Data Science & Web:** React, Next.js, Node.js, Express, FastAPI, Tailwind CSS, NumPy, pandas, scikit-learn, tidyverse, ggplot2, flexdashboard, SQLite WAL
 
-### Tools & Environments
-`Git` · `GitHub` · `Playwright` · `VS Code` · `RStudio` · `Overleaf / TeX Live` · `Microsoft Excel`
+- **Quantitative & Domain:** Applied Statistics, Predictive Modeling, Time-Series Forecasting, Real Analysis, Abstract Mathematics, Computer Vision, Mathematical Physics
 
----
+## Coursework & Academic Focus
 
-## Current Coursework
+### Physics
 
-My upper-level and senior coursework includes:
-
-- Intro to Data Structures
-- Mathematical Statistics
+- General Physics I & II
+- Modern Physics
+- Classical Mechanics / Analytical Mechanics
+- Electricity & Magnetism
+- Quantum Mechanics
 - Thermal Physics
-- Spanish
+- Computational Physics
+
+### Mathematics & Statistics
+
+- Calculus I, II, & III
+- Linear Algebra
+- Differential Equations
+- Transition to Abstract Mathematics
+- Real Analysis
+- Statistical Analysis / Statistical Models / Predictive Statistics
 - Mathematical Modeling
-- Physics CUE
-- Mathematics CUE
-- Statistics CUE
 
-I'm especially interested in turning ideas from mathematics, statistics, and physics into software and quantitative models that can be tested against real data.
-
----
+Physics CUE · Mathematics CUE · Statistics CUE
 
 ## Development Workflow
 
-I use modern AI development tools alongside programming, debugging, documentation, testing, and code-review workflows.
-
-They help me prototype quickly, explore unfamiliar technologies, trace bugs, and iterate on ideas, while I remain responsible for understanding the system, validating behavior, and being able to explain what I build.
-
----
+I use modern AI development tools alongside programming, debugging, documentation, testing, and code-review workflows. They help me prototype quickly, explore unfamiliar technologies, trace bugs, and iterate on ideas, while I remain responsible for software architecture, mathematical rigor, deterministic verification, and final quality.
 
 ## Experience Beyond Software
 
-Before focusing more heavily on software and quantitative computing, I built leadership experience in high-pressure team environments.
-
-As a **Head Chef at Weston Field Club**, I managed kitchen operations and applied quantitative reasoning to staffing, inventory, forecasting, and menu economics. That experience shaped how I approach technical problems: understand the constraints, build something practical, measure what matters, and improve the system.
-
-I'm also a college football player, which has reinforced the same habits I value in technical work: preparation, communication, iteration, and accountability.
-
----
+Before focusing more heavily on software and quantitative computing, I built leadership experience in high-pressure team environments. As Head Chef at Weston Field Club, I managed kitchen operations and applied quantitative reasoning to staffing, inventory, prep execution, and throughput during peak volume. I'm also a varsity college football offensive lineman at Muhlenberg College (#72, Centennial Conference Academic Honor Roll) and President of the Intramural Volleyball Club.
 
 ## Currently
 
-- **Building:** Racc Analytics
-- **Studying:** Data structures, mathematical statistics, mathematical modeling, and senior CUE work
-- **Exploring:** Statistical computing, predictive modeling, full-stack development, computer vision, and computational modeling
-- **Interested in:** Software engineering, data/quantitative roles, technical internships, research, and secondary STEM education
+- **Building:** Racc Analytics, browser-native statistical laboratories (DataSense Studio ecosystem), and native C++20/Rust desktop tools
 
----
+- **Studying:** Physics, Mathematics, and Statistics at Muhlenberg College (Class of 2027)
+
+- **Interested in:** High-school STEM & history teaching, coaching football, quantitative/data roles, and software engineering
 
 ## Connect
 
-🌐 [Website (rkohnmn.github.io)](https://rkohnmn.github.io) · 📄 [Teaching Portfolio (PDF)](https://rkohnmn.github.io/Robbie_Kohn_Certification_Portfolio.pdf) · [GitHub](https://github.com/rkohnmn) · [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · [Email](mailto:roberttkohn@gmail.com)
+🌐 [Website](https://rkohnmn.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/robert-kohn-844573345/) · 🐙 [GitHub](https://github.com/rkohnmn) · ✉️ [Email](mailto:roberttkohn@gmail.com)
